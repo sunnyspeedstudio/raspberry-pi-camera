@@ -1,5 +1,5 @@
 # Raspberry Pi Camera
-Making a "real" raspberry pi camera with 3d printed case.
+Making a "real" raspberry pi mirrorless interchangeable-lens camera with 3d printed case.
 
 ![raspberry_pi_camera](/images/camera-top.png)
 
