@@ -1,4 +1,4 @@
-# Raspberry Pi Camera
+# Raspberry Pi Camera with film simulation
 Making a "real" raspberry pi mirrorless interchangeable-lens camera (MILC) with 3d printed case.
 
 ![raspberry_pi_camera](/images/camera-top.png)
@@ -15,8 +15,10 @@ Making a "real" raspberry pi mirrorless interchangeable-lens camera (MILC) with 
 
 # Steps
 1. Install display driver, https://github.com/goodtft/LCD-show
-2. Install Apache web server, to view photos, `sudo apt-get install apache2`
-3. Run the python script in this repo, `sudo python main.py`. The photos are saved to /var/www/html folder
-4. To run the python script at startup, `sudo nano /etc/rc.local`, then add `sudo python full-path-to/main.py &` at the beginning of the file
+2. Install Apache web server, to view photos, `sudo apt-get install apache2` (optional, can also try "rsync")
+3. Run the python script in this repo, `sudo python3 main.py`. The photos are saved to /var/www/html folder
+4. To run the python script at startup, `sudo nano /etc/rc.local`, then add `sudo python3 full-path-to/main.py &` at the beginning of the file
+
+For film simulation, ImageMagick (https://imagemagick.org/index.php) is required.
 
 ![raspberry_pi_camera](/images/camera.png)
