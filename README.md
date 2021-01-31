@@ -19,7 +19,9 @@ Making a "real" raspberry pi mirrorless interchangeable-lens camera (MILC) with 
 3. Run the python script in this repo, `sudo python3 main.py`. The photos are saved to /var/www/html folder
 4. To run the python script at startup, `sudo nano /etc/rc.local`, then add `sudo python3 full-path-to/main.py &` at the beginning of the file
 
-For film simulation, ImageMagick (https://imagemagick.org/index.php) is required.
+# Notes
+* For film simulation, ImageMagick (https://imagemagick.org/index.php) is required.
+* For more HaldCLUT film simulation LUTs, please get it from: https://rawpedia.rawtherapee.com/Film_Simulation
 
 ![raspberry_pi_camera](/images/camera.png)
 
