@@ -22,3 +22,7 @@ Making a "real" raspberry pi mirrorless interchangeable-lens camera (MILC) with 
 For film simulation, ImageMagick (https://imagemagick.org/index.php) is required.
 
 ![raspberry_pi_camera](/images/camera.png)
+
+
+Demo YouTube video:
+[![YouTube Demo Video](https://img.youtube.com/vi/InYgHwcxmpg/0.jpg)](https://www.youtube.com/watch?v=InYgHwcxmpg&feature=youtu.be&ab_channel=sunnyspeedstudio)
